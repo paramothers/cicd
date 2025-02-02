@@ -3,6 +3,6 @@ steps:
   entrypoint: 'bash'
   args: ['-c', 'echo "Hello, Cloud Build!"']
 build:
-  service_account: "your-service-account@your-project.iam.gserviceaccount.com"
+  service_account: "cicd-959@profound-matter-446906-r5.iam.gserviceaccount.com"
   logging:
     cloud_logging: CLOUD_LOGGING_ONLY
