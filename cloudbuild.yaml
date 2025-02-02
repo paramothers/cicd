@@ -2,3 +2,7 @@ steps:
 - name: 'ubuntu' # Use a pre-built Docker image
   entrypoint: 'bash'
   args: ['-c', 'echo "Hello, Cloud Build!"']
+build:
+  service_account: "your-service-account@your-project.iam.gserviceaccount.com"
+  logging:
+    cloud_logging: CLOUD_LOGGING_ONLY
