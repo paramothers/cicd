@@ -1,0 +1,4 @@
+steps:
+- name: 'ubuntu' # Use a pre-built Docker image
+  entrypoint: 'bash'
+  args: ['-c', 'echo "Hello, Cloud Build!"']
